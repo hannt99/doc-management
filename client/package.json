@@ -1,0 +1,66 @@
+{
+    "name": "doc-management-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "babel-plugin-macros": "^3.1.0",
+        "babel-plugin-module-resolver": "^5.0.2",
+        "customize-cra": "^1.0.0",
+        "react-app-rewired": "^2.2.1",
+        "tailwindcss": "^3.4.3"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.5.2",
+        "@fortawesome/free-brands-svg-icons": "^6.5.2",
+        "@fortawesome/free-regular-svg-icons": "^6.5.2",
+        "@fortawesome/free-solid-svg-icons": "^6.5.2",
+        "@fortawesome/react-fontawesome": "^0.2.2",
+        "@testing-library/jest-dom": "^6.4.5",
+        "@testing-library/react": "^15.0.7",
+        "@testing-library/user-event": "^14.5.2",
+        "axios": "^1.7.2",
+        "form-data": "^4.0.0",
+        "jwt-decode": "^4.0.0",
+        "socket.io-client": "^4.7.5",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.23.1",
+        "react-scripts": "^5.0.1",
+        "react-select": "^5.8.0",
+        "react-toastify": "^10.0.5",
+        "javascript-time-ago": "^2.5.10",
+        "validator": "^13.12.0",
+        "web-vitals": "^4.0.1"
+    },
+    "overrides": {
+        "postcss": "^8.4.32",
+        "nth-check": "^2.1.1",
+        "ejs": "^3.1.10",
+        "express": "^4.19.2",
+        "webpack-dev-middleware": "^5.3.3"
+    },
+    "scripts": {
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test",
+        "eject": "react-app-rewired eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
